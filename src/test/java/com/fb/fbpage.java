@@ -28,6 +28,7 @@ public class fbpage {
 
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
+		System.out.println((driver.getCurrentUrl());
 	}
 	public void TC01_login(String username, String password)
 	{	
